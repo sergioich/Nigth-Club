@@ -11,13 +11,19 @@
     <sound>sound\sn_exterior</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\sp_pp</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\background4</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <object>objects\object0</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room2</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
