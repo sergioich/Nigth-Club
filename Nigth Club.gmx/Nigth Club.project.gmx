@@ -11,7 +11,6 @@
     <sound>sound\sn_exterior</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sp_pp</sprite>
     <sprite>sprites\spr_pp_stop</sprite>
     <sprite>sprites\spr_pp_der</sprite>
     <sprite>sprites\sprite_pp_izq</sprite>
@@ -24,18 +23,15 @@
     <sprite>sprites\spr_enemy_dead_izq</sprite>
     <sprite>sprites\spr_enemy_der</sprite>
     <sprite>sprites\spr_enemy_izq</sprite>
+    <sprite>sprites\sprite14</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background4</background>
-    <background>background\background5</background>
+    <background>background\bg_disco</background>
   </backgrounds>
   <paths name="paths"/>
-  <objects name="objects">
-    <object>objects\obj_pp_der</object>
-    <object>objects\object2</object>
-  </objects>
+  <objects name="objects"/>
   <rooms name="rooms">
-    <room>rooms\room2</room>
+    <room>rooms\room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
