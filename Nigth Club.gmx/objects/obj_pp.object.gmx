@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if speed &gt; 2 
+            <string>if speed &gt; 10
 {
-speed = 2 
+speed = 10
 }
 </string>
           </argument>
@@ -122,9 +122,9 @@ speed = 2
             <kind>1</kind>
             <string>sprite_index = spr_pp_der
 motion_add(0,3);
-if(speed&gt;=3)
+if(speed&gt;=10)
 {
-speed=3;
+speed=10;
 }
 </string>
           </argument>
@@ -150,9 +150,9 @@ speed=3;
             <kind>1</kind>
             <string>sprite_index = spr_pp_izq
 motion_add(180,3);
-if(speed&gt;=3)
+if(speed&gt;=30)
 {
-speed=3;
+speed=30;
 }
 </string>
           </argument>

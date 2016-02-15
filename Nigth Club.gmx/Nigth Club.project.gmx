@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\sn_patada</sound>
     <sound>sound\sn_pu_o</sound>
+    <sound>sound\snd_fondo</sound>
     <sound>sound\sn_flash</sound>
     <sound>sound\snd_ext</sound>
   </sounds>
@@ -22,6 +23,10 @@
     <sprite>sprites\spr_pp_punch</sprite>
     <sprite>sprites\spr_puch_der</sprite>
     <sprite>sprites\spr_colision</sprite>
+    <sprite>sprites\spr_win</sprite>
+    <sprite>sprites\spr_lose</sprite>
+    <sprite>sprites\spr_bueno</sprite>
+    <sprite>sprites\spr_malo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_disco</background>
@@ -29,13 +34,21 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_pp</object>
-    <object>objects\obj_model</object>
+    <object>objects\obj_score</object>
+    <object>objects\obj_spawn</object>
     <object>objects\obj_colision</object>
     <object>objects\snd_exterior</object>
-    <object>objects\obj_snd_pu_o</object>
+    <object>objects\obj_malo</object>
+    <object>objects\obj_bueno</object>
+    <object>objects\obj_win</object>
+    <object>objects\obj_restartlose</object>
+    <object>objects\obj_instrucc</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room</room>
+    <room>rooms\rm_instrucctions</room>
+    <room>rooms\rm_game</room>
+    <room>rooms\rm_win</room>
+    <room>rooms\rm_lose</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

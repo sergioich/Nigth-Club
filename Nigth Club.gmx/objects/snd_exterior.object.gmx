@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(snd_ext, 2, true);
+            <string>audio_play_sound(snd_fondo, 2, false);
+
+if (audio_is_playing (snd_exterior) == true) {
+audio_stop_sound (snd_exterior);
+}
 </string>
           </argument>
         </arguments>
