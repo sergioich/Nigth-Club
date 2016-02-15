@@ -8,28 +8,32 @@
     <sound>sound\sn_patada</sound>
     <sound>sound\sn_pu_o</sound>
     <sound>sound\sn_flash</sound>
-    <sound>sound\sn_exterior</sound>
+    <sound>sound\snd_ext</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_pp_stop</sprite>
-    <sprite>sprites\spr_pp_der</sprite>
-    <sprite>sprites\sprite_pp_izq</sprite>
-    <sprite>sprites\spr_pp_pu_o_der</sprite>
-    <sprite>sprites\spr_pp_pu_o_izq</sprite>
-    <sprite>sprites\spr_pp_patada_der</sprite>
-    <sprite>sprites\spr_pp_patada_izq</sprite>
     <sprite>sprites\spr_model</sprite>
     <sprite>sprites\spr_enemy_dead_der</sprite>
     <sprite>sprites\spr_enemy_dead_izq</sprite>
     <sprite>sprites\spr_enemy_der</sprite>
     <sprite>sprites\spr_enemy_izq</sprite>
-    <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\spr_pp_izq</sprite>
+    <sprite>sprites\spr_pp_der</sprite>
+    <sprite>sprites\spr_pp_stant</sprite>
+    <sprite>sprites\spr_pp_punch</sprite>
+    <sprite>sprites\spr_puch_der</sprite>
+    <sprite>sprites\spr_colision</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_disco</background>
   </backgrounds>
   <paths name="paths"/>
-  <objects name="objects"/>
+  <objects name="objects">
+    <object>objects\obj_pp</object>
+    <object>objects\obj_model</object>
+    <object>objects\obj_colision</object>
+    <object>objects\snd_exterior</object>
+    <object>objects\obj_snd_pu_o</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room</room>
   </rooms>
