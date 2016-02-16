@@ -121,10 +121,10 @@ speed = 10
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_pp_der
-motion_add(0,3);
-if(speed&gt;=10)
+motion_add(0,8);
+if(speed&gt;=8)
 {
-speed=10;
+speed=8;
 }
 </string>
           </argument>
@@ -149,10 +149,10 @@ speed=10;
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_pp_izq
-motion_add(180,3);
-if(speed&gt;=30)
+motion_add(180,8);
+if(speed&gt;=8)
 {
-speed=30;
+speed=8;
 }
 </string>
           </argument>

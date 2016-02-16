@@ -28,7 +28,7 @@
             <string>num=irandom_range(1,100)
 if num&lt;5
 {
-xp=irandom_range(10,1500)
+xp=irandom_range(10,1400)
 yp=100
 r = irandom_range(1,2)
 if r=1

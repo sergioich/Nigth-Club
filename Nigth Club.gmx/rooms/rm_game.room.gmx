@@ -52,11 +52,12 @@
   </views>
   <instances>
     <instance objName="obj_pp" x="640" y="360" name="inst_4E4151DF" locked="0" code="" scaleX="0.427807480096817" scaleY="0.389221549034119" colour="4294967295" rotation="0"/>
-    <instance objName="obj_colision" x="-64" y="504" name="inst_848473AD" locked="0" code="" scaleX="0.815286636352539" scaleY="0.462686568498611" colour="4294967295" rotation="0"/>
     <instance objName="obj_colision" x="1440" y="504" name="inst_31512FB9" locked="0" code="" scaleX="0.815286636352539" scaleY="0.462686568498611" colour="4294967295" rotation="0"/>
-    <instance objName="snd_exterior" x="0" y="0" name="inst_DDEEE8D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="32" y="900" name="inst_4FE545B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="32" y="0" name="inst_8BDC993B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_win" x="-32" y="612" name="inst_A5538AE2" locked="0" code="" scaleX="0.944242417812347" scaleY="1.12359547615051" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn" x="0" y="0" name="inst_8BD714B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snd_exterior" x="32" y="0" name="inst_6BF05E29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_colision" x="-96" y="504" name="inst_BCAFF040" locked="0" code="" scaleX="0.815286636352539" scaleY="0.462686568498611" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
